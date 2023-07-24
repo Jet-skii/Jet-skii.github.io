@@ -4,7 +4,7 @@
 
 # KARGA Official Website
 
-This is the official website of KARGA, a Filipino drop shipping business promoting locally manufactured bags, founded by Nigel Nuñez and Jethro Pabroquez.
+This is the official website of KARGA, a Filipino drop shipping business promoting locally manufactured bags, founded by [Nigel Nuñez](https://github.com/konnigiri) and [Jethro Pabroquez](https://github.com/Jet-skii).
 
 <br>
 
