@@ -1,0 +1,65 @@
+.products-text-container {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: -20px;
+}
+
+.all-products {
+  flex: 1;
+  text-align: center;
+}
+
+.all-products-text-container {
+  font-family: Montserrat, Arial;
+  font-size: 40px;
+  font-weight: 700;
+  color: #78362a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.all-products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 1860px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.products img {
+  width: 400px;
+}
+
+.product-name {
+  font-family: Montserrat, Arial;
+  font-size: 28px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.buy-now-button {
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+  background-color: #471718;
+  color: white;
+  width: 160px;
+  border-radius: 30px;
+  cursor: pointer;
+}

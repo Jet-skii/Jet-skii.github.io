@@ -1,0 +1,40 @@
+.store-greeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 115px;
+  margin-top: 134px;
+}
+
+.greeting-text-container {
+  display: flex;
+  flex: 1;
+}
+
+.greeting-text {
+  font-family: Montserrat, Arial;
+  font-size: 26px;
+  font-weight: 700;
+  color: #3e1213;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) and (max-width: 799px) {
+  .greeting-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1019px) {
+  .greeting-text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .greeting-text {
+    font-size: 26px;
+  }
+}

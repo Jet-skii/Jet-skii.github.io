@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>KARGA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/homebar.css">
+  <link rel="stylesheet" href="styles/allprods.css">
+  <link rel="stylesheet" href="styles/others.css">
+  <link rel="stylesheet" href="styles/footer.css">
+
+</head>
+
+<body>
+
+  <div class="header">
+
+    <div class="header-bars">
+
+      <div class="title-section">
+        KARGA
+      </div>
+
+      <div class="home-bar-section">
+        <div class="home-bar">
+
+          <div class="home-tab">
+            <a href="home.html" class="home-container">
+              Home
+            </a>
+          </div>
+
+          <div class="products-tab">
+            <a href="product-page.html" class="products-container">
+              Products
+            </a>
+          </div>
+
+          <div class="about-tab">
+            <a href="about.html" class="about-container">
+              About
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="search-section">
+        <input class="search-bar" type="textbox" placeholder="Search">
+      </div>
+
+      <div class="account-section">
+
+        <a href="shopping-cart.html">
+          <img class="shopping-bag-icon" src="pictures/shopping-bag.png">
+        </a>
+
+        <a href="account-menu.html">
+          <img class="user-account-icon" src="pictures/user-account.png">
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="shopping-list">
+
+    <div>
+
+      <div class="shopping-list-text-container">
+        SHOPPING LIST
+      </div>
+
+    </div>
+
+    <div class="shopping-item-list">
+
+      <div class="item-container">
+
+        <div class="shopping-image-container">
+          <img class="shopping-image" src="jivi/JIVI MARVOLO Duffle Bag_1.jpg">
+        </div>
+
+        <div class="shopping-item-text">
+          JiVi MARVOLO Duffle Bag
+        </div>
+
+        <div class="shopping-item-price">
+          &#8369 1388
+        </div>
+
+        <div class="quantity-container">
+
+          <label for="quantity">Quantity:</label>
+
+          <div class="quantity-control">
+
+            <button class="decrement-button" onclick="decrementQuantity()">-</button>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+            <button class="increment-button" onclick="incrementQuantity()">+</button>
+
+          </div>
+
+        </div>
+
+        <script>
+          function incrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepUp();
+          }
+
+          function decrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepDown();
+          }
+        </script>
+
+        <div class="total-container">
+          Total: &#8369 1388
+        </div>
+
+      </div>
+
+      <div class="item-container">
+
+        <div>
+          <img class="shopping-image" src="salvatore/Salvatore Mann Kira Backpack_1.jpg">
+        </div>
+
+        <div class="shopping-item-text">
+          Salvatore Mann KIRA Backpack
+        </div>
+
+        <div class="shopping-item-price">
+          &#8369 1299
+        </div>
+
+        <div class="quantity-container">
+
+          <label for="quantity">Quantity:</label>
+
+          <div class="quantity-control">
+
+            <button class="decrement-button" onclick="decrementQuantity()">-</button>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+            <button class="increment-button" onclick="incrementQuantity()">+</button>
+
+          </div>
+
+        </div>
+
+        <script>
+          function incrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepUp();
+          }
+
+          function decrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepDown();
+          }
+        </script>
+
+        <div class="total-container">
+          Total: &#8369 1299
+        </div>
+
+      </div>
+
+      <div class="item-container">
+
+        <div>
+          <img class="shopping-image" src="shigetsu/SHIGETSU_GERO_SLING_BAG_1.jpg">
+        </div>
+
+        <div class="shopping-item-text">
+          Shigetsu GERO Sling Bag
+        </div>
+
+        <div class="shopping-item-price">
+          &#8369 1399
+        </div>
+
+        <div class="quantity-container">
+
+          <label for="quantity">Quantity:</label>
+
+          <div class="quantity-control">
+
+            <button class="decrement-button" onclick="decrementQuantity()">-</button>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+            <button class="increment-button" onclick="incrementQuantity()">+</button>
+
+          </div>
+
+        </div>
+
+        <script>
+          function incrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepUp();
+          }
+
+          function decrementQuantity() {
+            const quantityInput = document.getElementById("quantity");
+            quantityInput.stepDown();
+          }
+        </script>
+
+        <div class="total-container">
+          Total: &#8369 1399
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="buyer-info">
+
+    <div>
+
+      <div class="details-text-container">
+        Enter Your Details
+      </div>
+
+    </div>
+
+    <div class="details-container">
+
+      <div class="name-container">
+        <div class="detail-text">
+          Name
+        </div>
+        <div>
+          <input class="name-bar" type="textbox" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="address-container">
+        <div class="detail-text">
+          Address
+        </div>
+        <div>
+          <input class="address-bar" type="textbox" placeholder="Address">
+        </div>
+      </div>
+
+      <div class="postal-container">
+        <div class="detail-text">
+          Postal Code
+        </div>
+        <div>
+          <input class="postal-bar" type="textbox" placeholder="Postal Code">
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <div class="detail-text">
+          Contact Number
+        </div>
+        <div>
+          <input class="contacts-bar" type="textbox" placeholder="Contact">
+        </div>
+      </div>
+
+      <div class="payment-container">
+        <div class="detail-text">
+          Payment Method
+        </div>
+        <div>
+          <select id="payment-method" name="payment-method">
+            <option value="cash-on-deliver">Cash On Delivery</option>
+            <option value="debit-card">Debit Card</option>
+            <option value="credit-card">Credit Card</option>
+            <option value="gcash">GCash</option>
+            <option value="maya">Maya</option>
+            <option value="paypal">PayPal</option>
+            <option value="bank-transfer">Bank Transfer</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="place-order-container">
+      <a href="thank-you.html">
+        <button class="place-order-button">
+          PLACE ORDER
+        </button>
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+
+    <div class="footer-container">
+
+      <div class="footer-logo-container">
+        <img class="footer-logo" src="logo/Logo_White_5.png">
+      </div>
+
+      <div class="credit-footer">
+        &#169; 2023 Karga. All rights reserved.
+      </div>
+
+      <div class="icons-container">
+
+        <div>
+          <a href="https://facebook.com/">
+            <img class="facebook-icon" src="pictures/facebook-icon.png">
+          </a>
+        </div>
+
+        <div>
+          <a href="https://instagram.com">
+            <img class="instagram-icon" src="pictures/instagram-icon.png">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

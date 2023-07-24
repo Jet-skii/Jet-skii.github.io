@@ -1,0 +1,73 @@
+.brand-headline-container {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-brands {
+  flex: 1;
+  text-align: center;
+}
+
+.featured-brands-text-container {
+  font-family: Montserrat, Arial;
+  font-size: 38px;
+  font-weight: 700;
+  background-color: #804e2b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.jivi,
+.salvatore-mann,
+.shigetsu {
+  flex: 1;
+}
+
+.salvatore-logo,
+.shigetsu-logo {
+  height: 160px;
+}
+
+.jivi-logo {
+  height: 100px;
+}
+
+.trending-container {
+  background-color: #2b1d17;
+  color: white;
+  display: flex;
+  flex: row;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 36px;
+}
+
+.trending-products {
+  flex: 1;
+  text-align: center;
+}
+
+.trending-products-text-container {
+  font-family: Montserrat, Arial;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 90px;
+}

@@ -1,0 +1,81 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.header-bars {
+  background-color: #2b1d17;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  margin-left: -8px;
+}
+
+.title-section {
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Angkor, Arial;
+  font-size: 52px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.logo-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.home-bar-section {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 300px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 100%;
+}
+
+.search-bar {
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(97, 68, 44);
+  border-radius: 24px;
+  box-shadow: inset 1px 2px 5px rgba(161, 68, 31, 0.2);
+  width: 0px;
+}
+
+.search-bar::placeholder {
+  font-family: Montserrat, Arial;
+  font-size: 16px;
+  color: #2b1d17;
+}
+
+.account-section {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.shopping-bag-icon,
+.user-account-icon {
+  height: 40px;
+}

@@ -1,0 +1,410 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.about-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.about-logo {
+  width: 600px;
+}
+
+.about-text-container {
+  flex: 1;
+  font-family: Montserrat, Arial;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+  width: 640px;
+  color: #78362a;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.about-paragraph {
+  flex: 1;
+  font-family: Montserrat, Arial;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #78362a;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tagline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.tagline {
+  flex: 1;
+  font-family: Montserrat, Arial;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #78362a;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.account-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 520px;
+  margin-top: 260px;
+  margin-bottom: 180px;
+}
+
+.login-text-container {
+  flex: 1;
+  font-family: Montserrat, Arial;
+  font-size: 42px;
+  font-weight: 500;
+  color: #78362a;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 400px;
+  color: white;
+  background-color: #664537;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.login-info-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 180px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.email-container,
+.password-container {
+  display: block;
+}
+
+.login-text {
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2b1d17;
+}
+
+.email-bar,
+.password-bar {
+  flex: 1;
+  height: 20px;
+  padding-left: 10px;
+  font-size: 12px;
+  border: 2px solid rgb(97, 68, 44);
+  border-radius: 24px;
+  box-shadow: inset 1px 2px 5px rgba(161, 68, 31, 0.2);
+  height: 30px;
+  width: 384px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.email-bar::placeholder,
+.password-bar::placeholder {
+  font-family: Montserrat, Arial;
+  font-size: 16px;
+  color: #2b1d17;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+  color: white;
+  background-color: #2b1d17;
+  border-radius: 20px;
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.rememberme-container {
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+}
+
+.register-forgot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.register-text {
+  font-family: Montserrat, Arial;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shopping-list-text-container {
+  flex: 1;
+  font-family: Montserrat, Arial;
+  font-size: 42px;
+  font-weight: 500;
+  color: #78362a;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 380px;
+  color: white;
+  background-color: #664537;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.shopping-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  height: 780px;
+}
+
+.shopping-item-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: block;
+  align-items: center;
+  height: 240px;
+}
+
+.shopping-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shopping-image {
+  width: 180px;
+}
+
+.shopping-item-text {
+  display: flex;
+  flex: 0.4;
+  font-family: Montserrat, Arial;
+  font-size: 32px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.shopping-item-price {
+  display: flex;
+  flex: .2;
+  flex-direction: row;
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.quantity-container {
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.increment-button,
+.decrement-button {
+  padding: 6px;
+  font-size: 16px;
+  background-color: #2b1d17;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  width: 34px;
+  border-radius: 20px;
+}
+
+input[type="number"] {
+  font-family: "Montserrat", Arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1d120e;
+  padding: 5px 10px;
+  width: 40px;
+  text-align: center;
+  border: 2px solid #2b1d17;
+  border-radius: 24px;
+  margin: 8px;
+}
+
+.total-container {
+  display: flex;
+  flex: .4;
+  flex-direction: row;
+  font-family: Montserrat, Arial;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.buyer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1060px;
+}
+
+.details-text-container {
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat, Arial;
+  font-size: 40px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.details-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.detail-text {
+  font-family: Montserrat, Arial;
+  font-size: 32px;
+  font-weight: 500;
+  color: #2b1d17;
+}
+
+.name-bar,
+.address-bar,
+.postal-bar,
+.contacts-bar {
+  flex: 1;
+  height: 20px;
+  padding-left: 10px;
+  border: 2px solid rgb(97, 68, 44);
+  border-radius: 24px;
+  box-shadow: inset 1px 2px 5px rgba(161, 68, 31, 0.2);
+  height: 40px;
+  width: 440px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.name-bar::placeholder,
+.address-bar::placeholder,
+.postal-bar::placeholder,
+.contacts-bar::placeholder {
+  font-family: Montserrat, Arial;
+  font-size: 18px;
+  color: #2b1d17;
+}
+
+select {
+  font-family: "Montserrat", Arial;
+  font-size: 24px;
+  padding: 10px;
+  border: 4px solid #2b1d17;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 260px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("dropdown-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-top: 20px;
+}
+
+option {
+  font-family: "Montserrat", Arial;
+  font-size: 20px;
+  background-color: #f1f1f1;
+  color: #2b1d17;
+}
+
+
+select:focus {
+  outline: none;
+  outline-color: #2b1d17;
+  border-color: #2b1d17;
+}
+
+.place-order-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+}
+
+.place-order-button {
+  font-family: Montserrat, Arial;
+  font-size: 36px;
+  background-color: #471718;
+  color: white;
+  height: 120px;
+  width: 240px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.thank-you-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 630px;
+}
+
+.thank-you-text {
+  font-family: Montserrat, Arial;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #2b1d17;
+}
